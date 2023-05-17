@@ -5,7 +5,8 @@
 ```python
     Answer: YES
     Reference : https://aws.amazon.com/vpc/faqs/
-    Explanation : An AWS Site-to-Site VPN connection connects your VPC to your datacenter. Amazon supports Internet Protocol Security (IPSec) VPN connections. Data transferred between your VPC and datacenter routes over an encrypted VPN connection to help maintain the confidentiality and integrity of data in transit. An internet gateway is not required to establish an AWS Site-to-Site VPN connection. 
+    Explanation : An AWS Site-to-Site VPN connection connects your VPC to your datacenter. Amazon supports Internet Protocol Security (IPSec) VPN connections. Data transferred between your VPC and datacenter routes over an encrypted VPN connection to help maintain the confidentiality and integrity of data in transit. 
+    An internet gateway is not required to establish an AWS Site-to-Site VPN connection. 
     Architecture: Site-to-Site VPN connection , Site-to-Site VPN connection with a transit gateway
 ```
 
